@@ -12,12 +12,12 @@ public class IntakeSubsystem extends SubsystemBase {
     
 
     public IntakeSubsystem() {
-       intakeMotor.setSmartCurrentLimit(4);
-       intakeMotor.setSecondaryCurrentLimit(5);
+       intakeMotor.setSmartCurrentLimit(Constants.INTAKE_MOTOR_SMART_CURRENT);
+       intakeMotor.setSecondaryCurrentLimit(Constants.INTAKE_MOTOR_SECONDARY_CURRENT);
     }
 
     public void startIntake() {
-        intakeMotor.set(0.3);
+        intakeMotor.set(Constants.INTAKE_MOTOR_SPEED);
     }
 
     public void endIntake() {

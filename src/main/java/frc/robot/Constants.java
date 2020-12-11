@@ -16,9 +16,19 @@ package frc.robot;
  * constants are needed, to reduce verbosity.
  */
 public final class Constants {
+
+    // Controller Channels
     public static final int CONTROLLER_CHANNEL = 0;
+
+    // Ports and ID's
     public static final int INTAKE_MOTOR_ID = 20;
     public static final int SUCKER_MOTOR_ID = 21;
     public static final int SHOOTER_MOTOR_1_ID = 22;
     public static final int SHOOTER_MOTOR_2_ID = 23;
+
+    // Intake Motor Constants
+    public static final int INTAKE_MOTOR_SMART_CURRENT = 8;
+    public static final double INTAKE_MOTOR_SECONDARY_CURRENT = 10;
+    public static final double INTAKE_MOTOR_SPEED = 10;
+
 }
