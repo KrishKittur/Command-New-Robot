@@ -10,7 +10,7 @@ public class Robot extends TimedRobot {
 
   private RobotContainer m_robotContainer;
 
- @Override
+  @Override
   public void robotInit() {
     m_robotContainer = new RobotContainer();
   }
@@ -28,12 +28,12 @@ public class Robot extends TimedRobot {
   public void disabledPeriodic() {
   }
 
- @Override
+  @Override
   public void autonomousInit() {
     //Create the auto command here in the future
   }
 
- @Override
+  @Override
   public void autonomousPeriodic() {
   }
 
