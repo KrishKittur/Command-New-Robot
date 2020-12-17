@@ -10,9 +10,12 @@ public final class Constants {
     public static final int SPINDEXER_MOTOR_ID = 20;
     public static final int SPINDEXER_ENCODER_CHANNEL = 0;
 
-    // Spindexer Motor Constants
+    // Spindexer Constants
+    public static final double SPINDEXER_START_POSITION = 37/360;
     public static final int SPINDEXER_ENCODER_DPR = 1;
-    
+    public static final double SPINDEXER_ENCODER_KP = 1;
+    public static final double SPINDEXER_ENCODER_KI = 0;
+    public static final double SPINDEXER_ENCODER_KD = 0;
 
 }
 /*----------------------------------------------------------------------------*/
