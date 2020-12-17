@@ -10,8 +10,8 @@ import frc.robot.subsystems.SpindexerSubsystem;
 
 public class RobotContainer {
 
-  private SpindexerSubsystem spindexer_subsystem = new SpindexerSubsystem();
-  private XboxController controller = new XboxController(CONTROLLER_CHANNEL);
+  public SpindexerSubsystem spindexer_subsystem = new SpindexerSubsystem();
+  public XboxController controller = new XboxController(CONTROLLER_CHANNEL);
 
   public RobotContainer() {
 
