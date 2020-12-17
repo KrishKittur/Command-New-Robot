@@ -37,10 +37,11 @@ public class InitSpindexer extends CommandBase {
         return spindexerPIDController.atSetpoint();
     }
 
-    // In the end method, set the spindexer voltage to 0
+    // In the end method, set the spindexer voltage to 0 and reset the spindexer encoder's position to 0
     @Override
     public void end(boolean interrupted) {
         req_subsystem.setSpindexerMotorBV(0);
+        req_subsystem.resetSpindexerEncoder();
     }
     
 

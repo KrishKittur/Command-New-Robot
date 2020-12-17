@@ -22,6 +22,9 @@ public class SpindexerSubsystem extends SubsystemBase {
     // Method to return the spindexer encoders readings 
     public double readSpindexerEncoder() { return spindexerEncoder.getDistance(); }
 
+    // Method to reset the spindexer encoder
+    public void resetSpindexerEncoder() { spindexerEncoder.reset(); }
+
     // Method to set the spindexer motor's power through percent
     public void setSpindexerMotorBP(double speed) { spindexerMotor.set(speed); }
 
